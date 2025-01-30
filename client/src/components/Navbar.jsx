@@ -1,4 +1,5 @@
 import React from 'react'
+import { userData } from '../data/dummyData'
 
 function Navbar() {
   return (
@@ -52,7 +53,7 @@ function Navbar() {
                     <span className="sr-only">Open user menu</span>
                     <img
                       className="w-8 h-8 rounded-full"
-                      src="https://avatars.githubusercontent.com/u/89949898?v=4"
+                      src={userData.img}
                       alt="user photo"
                     />
                     
@@ -67,13 +68,13 @@ function Navbar() {
                       className="text-sm text-gray-900 dark:text-white"
                       role="none"
                     >
-                      Mehul
+                      {userData.name}
                     </p>
                     <p
                       className="text-sm font-medium text-gray-900 truncate dark:text-gray-300"
                       role="none"
                     >
-                      mehulanand78@gmail.com
+                      {userData.userMail}
                     </p>
                   </div>
                   <ul className="py-1" role="none">
