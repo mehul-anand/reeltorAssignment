@@ -1,3 +1,13 @@
+import AreaChart from "./AreaChart"
+import Card from "./Card"
+import CardList from "./CardList"
+import ColChart from "./ColChart"
+import ComparisonChart from "./ComparisonChart"
+import MainBoard from "./MainBoard"
 import Navbar from "./Navbar"
+import PieChart from "./PieChart"
+import Sales from "./Sales"
 import SideBar from "./SideBar"
-export default {Navbar,SideBar}
+import Table from "./Table"
+import Views from "./Views"
+export default {Navbar,SideBar , AreaChart , Card,CardList,ColChart,ComparisonChart,Error,MainBoard,Navbar,PieChart,Sales,SideBar,Table,Views}
