@@ -42,7 +42,7 @@ function Card({ propertyInfo }) {
             <div className="sm:flex sm:gap-6 mt-2">
               <div className="flex items-center gap-2">
                 <img
-                  src="../public/bed.png"
+                  src="../bed.png"
                   alt=""
                   className="w-5 h-5 dark:invert"
                 />
@@ -53,7 +53,7 @@ function Card({ propertyInfo }) {
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="../public/bath.png"
+                  src="../bath.png"
                   alt=""
                   className="w-4 h-4 dark:invert"
                 />
@@ -64,7 +64,7 @@ function Card({ propertyInfo }) {
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="../public/size.png"
+                  src="../size.png"
                   alt=""
                   className="w-4 h-4 dark:invert"
                 />
