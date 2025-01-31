@@ -121,7 +121,7 @@ function Listings() {
               ))}
             </>
           ) : (
-            <div className="sm:col-span-12 sm:row-span-4">
+            <div className="sm:col-span-12 sm:row-span-4 row-span-2 col-span-6 ">
               <Error />
             </div>
           )}
