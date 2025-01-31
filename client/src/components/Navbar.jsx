@@ -1,10 +1,11 @@
-import React from 'react'
-import { userData } from '../data/dummyData'
+import React from "react";
+import { userData } from "../data/dummyData";
+import { DarkMode } from "../utils/DarkMode";
 
 function Navbar() {
   return (
     <div>
-        <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+      <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <div className="px-3 py-3 lg:px-5 lg:pl-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-start rtl:justify-end">
@@ -42,7 +43,10 @@ function Navbar() {
               </a>
             </div>
             <div className="flex items-center">
-              <div className="flex items-center ms-3">
+              <div className="flex items-center">
+                <div>
+                  <DarkMode />
+                </div>
                 <div>
                   <button
                     type="button"
@@ -56,7 +60,6 @@ function Navbar() {
                       src={userData.img}
                       alt="user photo"
                     />
-                    
                   </button>
                 </div>
                 <div
@@ -78,7 +81,6 @@ function Navbar() {
                     </p>
                   </div>
                   <ul className="py-1" role="none">
-            
                     <li>
                       <a
                         href="#"
@@ -88,7 +90,7 @@ function Navbar() {
                         Settings
                       </a>
                     </li>
-                    
+
                     <li>
                       <a
                         href="#"
@@ -106,7 +108,7 @@ function Navbar() {
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
