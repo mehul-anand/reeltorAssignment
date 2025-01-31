@@ -18,7 +18,7 @@ function Views() {
           Here are your stats
         </p>
       </div>
-      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 h-28 dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
+      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
       <Table type={"views"} timeFrame={"Weekly"} categoryArray={weekDays} dataArray={weeklyViews}/>
       </div>
       <div className="sm:col-span-4 sm:row-span-3 bg-gray-50 dark:bg-gray-800 row-span-4 col-span-6">
@@ -38,7 +38,7 @@ function Views() {
           timeFrame={"day"}
         />
       </div>
-      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 h-28 dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
+      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
       <Table type={"views"} timeFrame={"Daily"} categoryArray={weekDays} dataArray={dailyViews}/>
       </div>
     </div>
