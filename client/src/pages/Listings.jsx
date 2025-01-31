@@ -42,7 +42,7 @@ function Listings() {
     <div>
       <div className="p-4 sm:ml-64 bg-gray-50 dark:bg-gray-800">
         <div className="p-4 mt-14 grid grid-cols-6 grid-rows-8 gap-4 sm:grid-cols-12 sm:grid-rows-1 bg-gray-50 dark:bg-gray-700">
-          <div className="sm:row-span-1 sm:col-span-4">
+          <div className="sm:row-span-1 sm:col-span-4 row-span-1 col-span-6">
             <form className="mx-auto">
               <label
                 htmlFor="city"
@@ -64,7 +64,7 @@ function Listings() {
               </select>
             </form>
           </div>
-          <div className="sm:row-span-1 sm:col-span-8">
+          <div className="sm:row-span-1 sm:col-span-8 row-span-1 col-span-6">
             <form className="mx-auto">
               <label
                 htmlFor="search"
