@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Sales from "./components/Sales.jsx";
+import Views from "./components/Views.jsx";
 
 const { Home, Layout, Dashboard, Listings } = Pages;
 
@@ -20,6 +21,7 @@ const appRouter = createBrowserRouter(
       <Route path="/" element={<Layout />}>
         <Route path="dashboard" element={<Dashboard />}>
           <Route path="sales" element={<Sales />} />
+          <Route path="views" element={<Views />} />
         </Route>
         <Route path="listings" element={<Listings />} />
       </Route>
