@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { listData } from "../data/dummyData";
 import Components from "../components";
-const {Card,Error} = Components
+import Error from "../components/Error";
+import Card from "../components/Card";
 
 function Listings() {
   const [page, setPage] = useState(1);
@@ -113,7 +114,6 @@ function Listings() {
               {filteredList.slice(page * 9 - 9, page * 9).map((propInfo) => (
                 <div
                   key={propInfo.id}
-                  // grid-cols-6 grid-rows-8 gap-4 sm:grid-cols-12 sm:grid-rows-1
                   className="sm:col-span-4 sm:row-span-4 bg-gray-50 dark:bg-gray-800 row-span-2 col-span-6"
                 >
                   <Card propertyInfo={propInfo} />
@@ -121,7 +121,7 @@ function Listings() {
               ))}
             </>
           ) : (
-            <div className="sm:col-span-12 sm:row-span-4 row-span-2 col-span-6 ">
+            <div className="sm:col-span-12 sm:row-span-4 row-span-2 col-span-6">
               <Error />
             </div>
           )}
