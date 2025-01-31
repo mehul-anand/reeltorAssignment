@@ -113,7 +113,8 @@ function Listings() {
               {filteredList.slice(page * 9 - 9, page * 9).map((propInfo) => (
                 <div
                   key={propInfo.id}
-                  className="sm:col-span-4 sm:row-span-4 bg-gray-50 dark:bg-gray-800 row-span-4 col-span-6"
+                  // grid-cols-6 grid-rows-8 gap-4 sm:grid-cols-12 sm:grid-rows-1
+                  className="sm:col-span-4 sm:row-span-4 bg-gray-50 dark:bg-gray-800 row-span-2 col-span-6"
                 >
                   <Card propertyInfo={propInfo} />
                 </div>
