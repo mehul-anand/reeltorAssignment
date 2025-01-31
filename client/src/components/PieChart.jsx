@@ -76,17 +76,17 @@ const options = () => {
   
   return (
     <div>
-      <div class="w-full bg-white rounded-lg shadow-sm dark:bg-gray-800 p-4 md:p-6">
-        <div class="flex justify-between items-start w-full">
-          <div class="flex-col items-center">
-            <div class="flex items-center mb-1">
-              <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">
+      <div className="w-full bg-white rounded-lg shadow-sm dark:bg-gray-800 p-4 md:p-6">
+        <div className="flex justify-between items-start w-full">
+          <div className="flex-col items-center">
+            <div className="flex items-center mb-1">
+              <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">
                 Sold v/s Unsold
               </h5>
               <svg
                 data-popover-target="chart-info"
                 data-popover-placement="bottom"
-                class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white cursor-pointer ms-1"
+                className="w-3.5 h-3.5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white cursor-pointer ms-1"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -98,10 +98,10 @@ const options = () => {
                 data-popover
                 id="chart-info"
                 role="tooltip"
-                class="absolute z-10 invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-xs opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400"
+                className="absolute z-10 invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-xs opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400"
               >
-                <div class="p-3 space-y-2">
-                  <h3 class="font-semibold text-gray-900 dark:text-white">
+                <div className="p-3 space-y-2">
+                  <h3 className="font-semibold text-gray-900 dark:text-white">
                     Sold vs Unsold Properties
                   </h3>
                   <p>
@@ -115,18 +115,16 @@ const options = () => {
             
             <div
               id="dateRangeDropdown"
-              class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-80 lg:w-96 dark:bg-gray-700 dark:divide-gray-600"
+              className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-80 lg:w-96 dark:bg-gray-700 dark:divide-gray-600"
             >
-              <div class="p-3" aria-labelledby="dateRangeButton">
+              <div className="p-3" aria-labelledby="dateRangeButton">
                 <div
-                  date-rangepicker
-                  datepicker-autohide
-                  class="flex items-center"
+                  className="flex items-center"
                 >
-                  <div class="relative">
-                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                  <div className="relative">
+                    <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                       <svg
-                        class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                        className="w-4 h-4 text-gray-500 dark:text-gray-400"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -138,15 +136,15 @@ const options = () => {
                     <input
                       name="start"
                       type="text"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="Start date"
                     />
                   </div>
-                  <span class="mx-2 text-gray-500 dark:text-gray-400">to</span>
-                  <div class="relative">
-                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                  <span className="mx-2 text-gray-500 dark:text-gray-400">to</span>
+                  <div className="relative">
+                    <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                       <svg
-                        class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                        className="w-4 h-4 text-gray-500 dark:text-gray-400"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -158,7 +156,7 @@ const options = () => {
                     <input
                       name="end"
                       type="text"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="End date"
                     />
                   </div>
