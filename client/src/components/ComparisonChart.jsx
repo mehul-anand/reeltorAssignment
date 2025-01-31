@@ -107,18 +107,21 @@ function ComparisonChart({
 
   return (
     <div>
-      <div class="w-full bg-white rounded-lg shadow-sm dark:bg-gray-800">
-        <div class="flex justify-between p-4 md:p-6 pb-0 md:pb-0">
+      <div className="w-full bg-white rounded-lg shadow-sm dark:bg-gray-800">
+        <div className="flex justify-between p-4 md:p-6 pb-0 md:pb-0">
           <div>
-            <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">
+            <h5 className="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">
               Comparison
             </h5>
-            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               Weekly Data
             </p>
           </div>
         </div>
-        <div ref={chartRef} className="border-b border-gray-200 dark:border-gray-700 px-2" ></div>
+        <div
+          ref={chartRef}
+          className="border-b border-gray-200 dark:border-gray-700 px-2"
+        ></div>
       </div>
     </div>
   );
