@@ -26,11 +26,11 @@ function Sales() {
           timeFrame={"week"}
         />
       </div>
-      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 h-28 dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
-        <Table />
+      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 className dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
+        <Table type={"sales"} timeFrame={"Weekly"} categoryArray={weekDays} dataArray={weeklySales}/>
       </div>
-      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 h-28 dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
-        <Table />
+      <div className="sm:col-span-8 sm:row-span-3 bg-gray-50 className dark:bg-gray-800 row-span-2 col-span-6 hidden sm:block">
+      <Table type={"sales"} timeFrame={"Daily"} categoryArray={dayTimes} dataArray={dailySales}/>
       </div>
       <div className="sm:col-span-4 sm:row-span-3 bg-gray-50 dark:bg-gray-800 row-span-4 col-span-6">
         <AreaChart
