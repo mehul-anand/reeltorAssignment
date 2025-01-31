@@ -64,7 +64,7 @@ function Card({ propertyInfo }) {
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="../size.png"
+                  src="../../size.png"
                   alt=""
                   className="w-4 h-4 dark:invert"
                 />
