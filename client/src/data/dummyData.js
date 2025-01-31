@@ -349,10 +349,10 @@ export const dailyViews = [130, 140, 120, 80, 115, 65];
 
 export const pastBuyers = [
   { name: "Dakshi", mail: "dakshi@gmail.com", sale: 1.4 , pfp:"../pfpOne.jpg"},
-  { name: "Aman", mail: "aman@gmail.com", sale: 1 ,pfp:"pfpTwo.jpg"},
-  { name: "Tanmay", mail: "tanmay@gmail.com", sale: 0.5 ,pfp:"public/pfpThree.jpg"},
-  { name: "Aryan", mail: "aryan@gmail.com", sale: 1.9 ,pfp:"public/pfpFour.jpg"},
-  { name: "Ritesh", mail: "ritesh@gmail.com", sale: 2.1 ,pfp:"public/pfpFive.jpg"},
+  { name: "Aman", mail: "aman@gmail.com", sale: 1 ,pfp:"../pfpTwo.jpg"},
+  { name: "Tanmay", mail: "tanmay@gmail.com", sale: 0.5 ,pfp:"../pfpThree.jpg"},
+  { name: "Aryan", mail: "aryan@gmail.com", sale: 1.9 ,pfp:"../pfpFour.jpg"},
+  { name: "Ritesh", mail: "ritesh@gmail.com", sale: 2.1 ,pfp:"../pfpFive.jpg"},
 ];
 
 export const singlePostData = {
