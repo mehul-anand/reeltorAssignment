@@ -1,11 +1,7 @@
 import React from "react";
-import { userData } from "../data/dummyData";
-import AreaChart from "../components/AreaChart";
-import Table from "../components/Table";
-import { weekDays } from "../data/dummyData";
-import { weeklyViews } from "../data/dummyData";
-import { dailyViews } from "../data/dummyData";
-import { dayTimes } from "../data/dummyData";
+import { userData ,weekDays,weeklyViews,dailyViews,dayTimes } from "../data/dummyData";
+import AreaChart from "./AreaChart";
+import Table from "./Table";
 
 function Views() {
   return (

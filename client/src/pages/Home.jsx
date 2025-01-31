@@ -1,7 +1,6 @@
 import React from "react";
-import Card from "../components/Card";
-import Error from "../components/Error";
-import Navbar from "../components/Navbar";
+import Components from "../components";
+const {Navbar} = Components
 
 function Home() {
   return (

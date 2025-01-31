@@ -1,12 +1,6 @@
 import React from "react";
+import { weeklySales,weeklyViews,weekDays,userData,dayTimes,dailySales,dailyViews } from "../data/dummyData";
 import ColChart from "./ColChart";
-import { weeklySales } from "../data/dummyData";
-import { weeklyViews } from "../data/dummyData";
-import { weekDays } from "../data/dummyData";
-import { userData } from "../data/dummyData";
-import { dayTimes } from "../data/dummyData";
-import { dailySales } from "../data/dummyData";
-import { dailyViews } from "../data/dummyData";
 import ComparisonChart from "./ComparisonChart";
 import PieChart from "./PieChart";
 import CardList from "./CardList";

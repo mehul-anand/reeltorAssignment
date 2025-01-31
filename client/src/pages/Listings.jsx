@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { listData } from "../data/dummyData";
-import Card from "../components/Card";
-import Error from "../components/Error";
+import Components from "../components";
+const {Card,Error} = Components
 
 function Listings() {
   const [page, setPage] = useState(1);

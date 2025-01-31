@@ -41,22 +41,14 @@ function Card({ propertyInfo }) {
             Specifications:
             <div className="sm:flex sm:gap-6 mt-2">
               <div className="flex items-center gap-2">
-                <img
-                  src="../bed.png"
-                  alt=""
-                  className="w-5 h-5 dark:invert"
-                />
+                <img src="../bed.png" alt="" className="w-5 h-5 dark:invert" />
                 <p className="text-gray-900 dark:text-white">
                   {propertyInfo.bedroom}{" "}
                   {propertyInfo.bedroom > 1 ? "bedrooms" : "bedroom"}
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <img
-                  src="../bath.png"
-                  alt=""
-                  className="w-4 h-4 dark:invert"
-                />
+                <img src="../bath.png" alt="" className="w-4 h-4 dark:invert" />
                 <p className="text-gray-900 dark:text-white">
                   {propertyInfo.bathroom}{" "}
                   {propertyInfo.bathroom > 1 ? "baths" : "bath"}
