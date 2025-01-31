@@ -34,7 +34,7 @@ function ComparisonChart({
           cssClass: "text-xs font-normal fill-gray-500 dark:fill-gray-400",
         },
         formatter: function (value) {
-          return "₹" + value;
+          return "" + value;
         },
       },
     },
