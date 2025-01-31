@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Sales from "./components/Sales.jsx";
 import Views from "./components/Views.jsx";
+import MainBoard from "./components/MainBoard.jsx";
 
 const { Home, Layout, Dashboard, Listings } = Pages;
 
@@ -20,6 +21,7 @@ const appRouter = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="/" element={<Layout />}>
         <Route path="dashboard" element={<Dashboard />}>
+          <Route path="main" element={<MainBoard />} />
           <Route path="sales" element={<Sales />} />
           <Route path="views" element={<Views />} />
         </Route>
