@@ -46,7 +46,7 @@ function AreaChart({categoryArray , dataArray , timeFrame ,type}) {
         },
         series: [
           {
-            name: "New users",
+            name: type,
             data: dataArray,
             color: "#1A56DB",
           },
