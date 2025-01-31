@@ -6,7 +6,7 @@ function ColChart({
   secondType,
   secondData,
   criteriaArray,
-  timeFrame
+  timeFrame,
 }) {
   const firstObjArray = firstData.map((data, index) => ({
     x: criteriaArray[index],
@@ -117,18 +117,21 @@ function ColChart({
   }, []);
   return (
     <div>
-      <div class="w-full bg-white rounded-lg shadow-sm dark:bg-gray-800 p-8">
-        <div class="flex justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
-          <div class="flex items-center">
+      <div className="w-full bg-white rounded-lg shadow-sm dark:bg-gray-800 p-8">
+        <div className="flex justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
+          <div className="flex items-center">
             <div>
-              <h5 class="leading-none text-2xl font-bold text-gray-900 dark:text-white pb-1">
+              <h5 className="leading-none text-2xl font-bold text-gray-900 dark:text-white pb-1">
                 {firstType} v/s {secondType} ({timeFrame.toLowerCase()})
               </h5>
             </div>
           </div>
         </div>
 
-        <div ref={chartRef} className="border-b border-gray-200 dark:border-gray-700" ></div>
+        <div
+          ref={chartRef}
+          className="border-b border-gray-200 dark:border-gray-700"
+        ></div>
       </div>
     </div>
   );
