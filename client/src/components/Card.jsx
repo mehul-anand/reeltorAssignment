@@ -30,9 +30,9 @@ function Card({ propertyInfo }) {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
@@ -40,17 +40,37 @@ function Card({ propertyInfo }) {
           <div className="my-3 font-normal text-gray-700 dark:text-gray-400">
             Specifications:
             <div className="sm:flex sm:gap-6 mt-2">
-            <div className="flex items-center gap-2">
-                <img src="../../public/bed.png" alt="" className="w-5 h-5 invert" />
-                <p className="text-gray-900 dark:text-white">{propertyInfo.bedroom} {propertyInfo.bedroom>1?"bedrooms":"bedroom"}</p>
+              <div className="flex items-center gap-2">
+                <img
+                  src="../../public/bed.png"
+                  alt=""
+                  className="w-5 h-5 dark:invert"
+                />
+                <p className="text-gray-900 dark:text-white">
+                  {propertyInfo.bedroom}{" "}
+                  {propertyInfo.bedroom > 1 ? "bedrooms" : "bedroom"}
+                </p>
               </div>
               <div className="flex items-center gap-2">
-                <img src="../../public/bath.png" alt="" className="w-4 h-4 invert" />
-                <p className="text-gray-900 dark:text-white">{propertyInfo.bathroom} {propertyInfo.bathroom>1?"baths":"bath"}</p>
+                <img
+                  src="../../public/bath.png"
+                  alt=""
+                  className="w-4 h-4 dark:invert"
+                />
+                <p className="text-gray-900 dark:text-white">
+                  {propertyInfo.bathroom}{" "}
+                  {propertyInfo.bathroom > 1 ? "baths" : "bath"}
+                </p>
               </div>
               <div className="flex items-center gap-2">
-                <img src="../../public/size.png" alt="" className="w-4 h-4 invert" />
-                <p className="text-gray-900 dark:text-white">{propertyInfo.size} sqft</p>
+                <img
+                  src="../../public/size.png"
+                  alt=""
+                  className="w-4 h-4 dark:invert"
+                />
+                <p className="text-gray-900 dark:text-white">
+                  {propertyInfo.size} sqft
+                </p>
               </div>
             </div>
           </div>
