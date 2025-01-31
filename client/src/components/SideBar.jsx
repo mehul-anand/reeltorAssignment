@@ -36,7 +36,7 @@ function SideBar({outlet}) {
                      <a href="/dashboard/views" className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Property Views</a>
                   </li>
                   <li>
-                     <a href="/dashboard/sales" className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Sale Stats</a>
+                     <a href="/dashboard/sales" className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Sales Stats</a>
                   </li>
             </ul>
          </li>
