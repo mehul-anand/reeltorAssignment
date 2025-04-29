@@ -20,7 +20,7 @@ const appRouter = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="/" element={<Layout />}>
         <Route path="dashboard" element={<Dashboard />}>
-          <Route path="main" element={<MainBoard />} />
+          <Route path="" element={<MainBoard />} />
           <Route path="sales" element={<Sales />} />
           <Route path="views" element={<Views />} />
         </Route>
