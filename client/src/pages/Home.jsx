@@ -1,12 +1,12 @@
 import React from "react";
 import Components from "../components";
-const {Navbar} = Components
+const { Navbar } = Components;
 
 function Home() {
   return (
     <div>
       <div>
-      <Navbar/>
+        <Navbar />
       </div>
       <section className="bg-white pt-20 sm:pt-32 h-screen dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
@@ -37,6 +37,12 @@ function Home() {
               Listing Page
             </a>
           </div>
+          <h2 className="mt-10 text-lg dark:text-white font-bold">
+            Made by{" "}
+            <span className="text-[#846eee] underline">
+              <a href="https://mehul.xyz/">Mehul Anand</a>
+            </span>
+          </h2>
         </div>
         <div className="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0"></div>
       </section>
